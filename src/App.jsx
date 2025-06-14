@@ -59,6 +59,8 @@ function App() {
             placeholder="Select or type a mood emoji"
           />
           <EmojiPicker onEmojiClick={(emoji) => setMood(emoji)} />
+            <br />
+            <br />
         </div>
         <button onClick={handleSubmit}>Post</button>
       </div>
