@@ -10,7 +10,7 @@ function App() {
   const [mood, setMood] = useState('');
 
   // Use environment variable for backend URL
-  const API_URL = import.meta.env.VITE_API_URL || 'https://dailydose-server.onrender.com';
+  const API_URL = import.meta.env.VITE_API_URL || 'https://dailydose-server-c66r.onrender.com';
 
   useEffect(() => {
     const fetchEntries = async () => {
